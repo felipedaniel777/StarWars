@@ -1,0 +1,39 @@
+.footer-container
+    height: 86px
+    background-color: #fff
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 0 20px
+    position: fixed
+    bottom: 0
+    width: 100%
+    @media (max-width: 768px)
+        height: 66px
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        .divider
+            display: none
+
+.footer-text
+    text-align: center
+    color: #343434
+    font-family: 'Lato', sans-serif
+    font-size: 14px
+    font-style: normal
+    font-weight: 500
+    line-height: 150%
+    @media (max-width: 768px)
+        display: none
+
+.divider
+    height: 50%
+    width: 1px
+    background-color: black
+    margin: 0 60px
+    @media (max-width: 768px)
+        display: none
+
+.logo
+    max-height: 100%

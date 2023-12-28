@@ -1,0 +1,102 @@
+.modal-results
+    width: 100%
+    display: flex
+    border-radius: 10px
+    background: white
+    max-width: 592px
+    margin-bottom: 120px
+    flex-direction: column
+    padding: 30px 25px
+
+    @media (max-width: 768px)
+        max-height: none
+        flex-direction: column
+        padding: 30px 12px
+
+.planet-infos
+    width: 100%
+    display: flex
+    margin-bottom: 24px
+
+    @media (max-width: 768px)
+        gap: 15px
+        flex-direction: column
+
+.planet-infos-name
+    width: 50%
+    display: flex
+    align-items: center
+    margin-right: 20px
+    @media (max-width: 400px)
+        flex-direction: column
+        gap: 10px
+        width: 100%
+
+    .company-logo
+        margin-right: 20px
+        width: 80px
+
+    .info-text
+        display: flex
+        flex-direction: column
+        font-size: 14px
+        font-style: normal
+        font-weight: 400
+        line-height: normal
+        p
+            font-size: 18px
+            font-weight: 900
+            line-height: normal
+            text-transform: uppercase
+
+.planet-infos-details
+    width: 50%
+    display: grid
+    grid-template-columns: repeat(1, 3fr)
+    grid-gap: 15px
+    @media (max-width: 768px)
+        margin: 0 auto
+        @media (max-width: 480px)
+            margin: 0
+    .text
+        display: flex
+        gap: 3px
+        font-size: 14px
+        font-style: normal
+        font-weight: 400
+        line-height: normal
+    p
+        font-weight: 700
+
+.residents, .films
+    width: 100%
+    display: flex
+    flex-direction: column
+    border-radius: 8px
+    background: #F1F1F1
+    margin-bottom: 10px
+    padding: 12px 16px
+
+    &-text
+        font-weight: 700
+        font-size: 14px
+        line-height: normal
+        border-bottom: 1px solid #909090
+        padding-bottom: 6px
+        margin-bottom: 18px
+        display: flex
+        align-items: center
+    ul
+        list-style-type: none
+        padding: 0
+        display: flex
+        flex-wrap: wrap
+        gap: 5px
+
+    li
+        margin-bottom: 5px
+        margin-right: 5px
+        font-size: 14px
+        font-style: normal
+        font-weight: 400
+        line-height: normal
