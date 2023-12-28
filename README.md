@@ -1,8 +1,8 @@
-# React + Vite
+# Star Wars Planets Research Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Use "npm install" para instalar as dependencias e "npm run dev" para iniciar o projeto.
 
-Currently, two official plugins are available:
+Bem-vindo ao repositório do projeto de pesquisa de planetas de Star Wars! Este projeto tem como objetivo reunir informações detalhadas sobre os diversos planetas que aparecem no universo de Star Wars, incluindo dados como população, terreno e em quais filmes eles foram destacados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Estrutura do Projeto
+O projeto está desenvolvido em React + Vite, com integração de SasS para o css. Separado em componentes e página para renderização.
